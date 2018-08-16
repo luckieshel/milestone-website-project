@@ -1,0 +1,83 @@
+/*****base styles*****/
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #2b2b2b;
+}
+
+/*****grid*****/
+
+header {
+    height: 800px; 
+}
+
+#portfolio {
+    height: 1450px; 
+}
+
+#about { 
+    height: 650px; 
+}
+
+#contact {
+    height: 400px; 
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto; 
+}
+
+.half-width {
+    width: 600px;
+    float: left; 
+}
+
+.third-width {
+    width: 400px;
+    float: left; 
+}
+
+/*****header*****/
+
+header {
+    background: url("../img/ryan-hutton-37733-unsplash.jpg");
+    background-size: cover; 
+}
+
+nav {
+    float: right; 
+    padding-left: 100px; 
+    padding-top: 25px; 
+    padding-right: 25px; 
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none; 
+    font-size: 18px; 
+    color: #ffff80;
+    padding-right: 1px;  
+    margin-right: 30px;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+header h1 { 
+    width: 1000px; 
+    padding: 150px 0 20px 110px; 
+    font-family: 'Playfair Display', serif;
+    font-size: 72px; 
+    color:#ebebe0;
+    clear: both; 
+}
+
+header h2 {
+    font-size: 50px; 
+    line-height: 80px; 
+    color: #9999ff;
+    text-align: center; 
+}
