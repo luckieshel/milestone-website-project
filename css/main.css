@@ -40,15 +40,15 @@ header {
 /*****header*****/
 
 header {
-    background: url("../img/ryan-hutton-37733-unsplash.jpg");
+    background: url("../img/holly-mandarich-326675-unsplash.jpg");
     background-size: cover; 
 }
 
 nav {
     float: right; 
     padding-left: 100px; 
-    padding-top: 25px; 
-    padding-right: 25px; 
+    padding-top: 35px; 
+    padding-right: 65px; 
 }
 
 nav ul li {
@@ -59,11 +59,13 @@ nav ul li a {
     text-transform: uppercase;
     text-decoration: none; 
     font-size: 18px; 
-    color: #ffff80;
+    color: #6600ff;
     padding-right: 1px;  
     margin-right: 30px;
     margin-left: 10px;
     font-family: 'Open Sans', sans-serif; 
+    font-weight: bold; 
+    letter-spacing: 2px; 
 }
 
 header h1 { 
@@ -71,7 +73,8 @@ header h1 {
     padding: 150px 0 20px 110px; 
     font-family: 'Playfair Display', serif;
     font-size: 72px; 
-    color:#ebebe0;
+    color:#ffffff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     clear: both; 
 }
 
@@ -79,5 +82,86 @@ header h2 {
     font-size: 50px; 
     line-height: 80px; 
     color: #9999ff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-align: center; 
 }
+
+/*****portfolio*****/
+
+#portfolio {
+    background: #8080ff;
+    background-size: cover; 
+    padding-left: 200px; 
+}
+
+#portfolio h3 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 36pt; 
+    text-align: center; 
+    margin-top: 0;
+    padding-top: 40px; 
+    padding-bottom: 20px; 
+    padding-right: 175px; 
+    color: #ebebe0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#jubilee-austen h4 {
+    font-size: 30px; 
+    padding-top: 50px; 
+    line-height: 1px; 
+}
+
+#jubilee-austen h5 {
+    font-size: 20px; 
+    line-height: 10px; 
+}
+
+#jubilee-austen a {
+    text-decoration: none; 
+    font-weight: bold;  
+    font-family: 'Playfair Display', serif; 
+    letter-spacing: 1.5px; 
+}
+
+#jubilee-austen img {
+    border: 1px solid #2b2b2b;
+    margin-left: 40px; 
+}
+
+#holstee-manifesto img {
+    margin-top: 70px; 
+    margin-left: 150px; 
+    border: 1px solid #2b2b2b;
+}
+
+#holstee-manifesto h4 {
+    padding-top: 200px; 
+    font-size: 30px; 
+    line-height: 1px; 
+}
+
+#holstee-manifesto h5 {
+    font-size: 20px; 
+    line-height: 10px; 
+    padding-bottom: 20px; 
+}
+
+#rogue-pickings h4 {
+    font-size: 30px; 
+    line-height: 1px; 
+    padding-top: 150px; 
+}
+
+#rogue-pickings h5 {
+    font-size: 20px; 
+    line-height: 10px; 
+
+}
+
+#rogue-pickings img {
+    margin-bottom: 60px; 
+    margin-top: 50px; 
+    border: 1px solid #2b2b2b; 
+}
+
