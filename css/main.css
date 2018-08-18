@@ -72,8 +72,8 @@ header h1 {
     width: 1000px; 
     padding: 150px 0 20px 110px; 
     font-family: 'Playfair Display', serif;
-    font-size: 72px; 
-    color:#ffffff;
+    font-size: 74px; 
+    color:#9999ff;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     clear: both; 
 }
@@ -81,22 +81,27 @@ header h1 {
 header h2 {
     font-size: 50px; 
     line-height: 80px; 
-    color: #9999ff;
+    color: #ffffff;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-align: center; 
+}
+
+header h2 span {
+    color: #b3b3ff;
 }
 
 /*****portfolio*****/
 
 #portfolio {
-    background: #8080ff;
+    background: #c2c2d6;
     background-size: cover; 
     padding-left: 200px; 
 }
 
 #portfolio h3 {
     font-family: 'Playfair Display', serif; 
-    font-size: 36pt; 
+    font-size: 45px; 
+    letter-spacing: 2px; 
     text-align: center; 
     margin-top: 0;
     padding-top: 40px; 
@@ -107,21 +112,31 @@ header h2 {
 }
 
 #jubilee-austen h4 {
+    padding-top: 30px; 
+    
+}
+
+#jubilee-austen h4 a {
     font-size: 30px; 
-    padding-top: 50px; 
-    line-height: 1px; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+    font-style: normal; 
+    font-variant: normal; 
+    color: #6600ff;
 }
 
 #jubilee-austen h5 {
     font-size: 20px; 
-    line-height: 10px; 
+    line-height: 1px; 
+    color: #2b2b2b;
 }
 
 #jubilee-austen a {
     text-decoration: none; 
     font-weight: bold;  
-    font-family: 'Playfair Display', serif; 
-    letter-spacing: 1.5px; 
+    font-style: italic; 
+    font-variant: small-caps; 
+    font-size: 20px; 
 }
 
 #jubilee-austen img {
@@ -136,9 +151,14 @@ header h2 {
 }
 
 #holstee-manifesto h4 {
-    padding-top: 200px; 
+    padding-top: 200px;
+}
+
+#holstee-manifesto h4 a {
     font-size: 30px; 
     line-height: 1px; 
+    text-decoration: none; 
+    color:#6600ff;
 }
 
 #holstee-manifesto h5 {
@@ -153,10 +173,14 @@ header h2 {
     padding-top: 150px; 
 }
 
+#rogue-pickings h4 a {
+    text-decoration: none; 
+    color: #6600ff;
+}
+
 #rogue-pickings h5 {
     font-size: 20px; 
     line-height: 10px; 
-
 }
 
 #rogue-pickings img {
@@ -165,3 +189,105 @@ header h2 {
     border: 1px solid #2b2b2b; 
 }
 
+/*****About*****/
+
+#about {
+    background: #b3b3ff;
+    background-size: cover; 
+    padding-left: 200px; 
+}
+
+#about img {
+    border: 2px solid #2b2b2b; 
+}
+#about h3 { 
+    font-family: 'Playfair Display', serif; 
+    font-size: 45px; 
+    letter-spacing: 2px; 
+    text-align: center; 
+    margin-top: 0;
+    padding-top: 40px; 
+    padding-bottom: 20px; 
+    padding-right: 175px; 
+    color: #ebebe0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#about h4 {
+    font-size: 25px; 
+    margin-top: 1px; 
+}
+
+#about p {
+    font-size: 24px; 
+    line-height: 35px; 
+    font-weight: 600; 
+}
+
+/*****contact*****/
+
+#contact {
+    background: #8080ff;
+    padding-left: 200px; 
+}
+
+#contact h3 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 45px; 
+    letter-spacing: 2px; 
+    text-align: center; 
+    margin-top: 0;
+    padding-top: 40px; 
+    padding-bottom: 20px; 
+    padding-right: 175px; 
+    color: #ebebe0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#contact h4 {
+    margin-top: 8px;  
+}
+
+#email-meet h4 {
+    font-size: 25px; 
+    margin-bottom: 10px; 
+}
+
+#email-meet a {
+    text-decoration: none; 
+    font-size: 20px; 
+    font-weight: bold; 
+    line-height: 2px; 
+ }
+
+#email-meet h5 {
+    margin-top: 15px; 
+    margin-bottom: 5px; 
+    font-size: 25px; 
+}
+
+#email-meet p {
+    font-size: 22px; 
+    margin-top: 5px; 
+}
+
+#flatirons img {
+    border: 1px solid #2b2b2b;
+    height: 200px; 
+    margin-bottom: 50px; 
+}
+
+#socialmedia h4 {
+    font-size: 25px; 
+    padding-left: 150px; 
+}
+
+#socialmedia-icons ul li {
+    display: inline-block;
+
+}
+
+#socialmedia-icons ul img {
+    width:  60px; 
+    height: 60px; 
+    padding-right: 50px;
+}
