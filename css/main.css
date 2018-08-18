@@ -2,24 +2,25 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #2b2b2b;
+    min-width: 1250px; 
 }
 
 /*****grid*****/
 
 header {
-    height: 800px; 
+    overflow: auto; 
 }
 
 #portfolio {
-    height: 1450px; 
+    overflow: auto; 
 }
 
 #about { 
-    height: 650px; 
+    overflow: auto; 
 }
 
 #contact {
-    height: 400px; 
+    overflow: auto; 
 }
 
 .full-width {
@@ -70,10 +71,14 @@ nav ul li a {
 
 header h1 { 
     width: 1000px; 
-    padding: 150px 0 20px 110px; 
-    font-family: 'Playfair Display', serif;
-    font-size: 74px; 
-    color:#9999ff;
+    text-align: center; 
+    padding-top: 70px; 
+    padding-left: 70px; 
+    font-family: 'Playfair', serif; 
+    font-size: 55px; 
+    font-weight: bolder; 
+    color: #8080ff;
+    letter-spacing: 2px; 
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     clear: both; 
 }
@@ -84,10 +89,11 @@ header h2 {
     color: #ffffff;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-align: center; 
+    padding-top: 60px; 
 }
 
 header h2 span {
-    color: #b3b3ff;
+    color: #e6b800;
 }
 
 /*****portfolio*****/
@@ -95,7 +101,6 @@ header h2 span {
 #portfolio {
     background: #c2c2d6;
     background-size: cover; 
-    padding-left: 200px; 
 }
 
 #portfolio h3 {
@@ -195,11 +200,11 @@ header h2 span {
 #about {
     background: #b3b3ff;
     background-size: cover; 
-    padding-left: 200px; 
 }
 
 #about img {
     border: 2px solid #2b2b2b;  
+    margin-bottom: 40px; 
 }
 
 #about h3 { 
@@ -209,7 +214,7 @@ header h2 span {
     text-align: center; 
     margin-top: 0;
     padding-top: 40px; 
-    padding-bottom: 20px; 
+    padding-bottom: 10px; 
     padding-right: 175px; 
     color: #ebebe0;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -229,8 +234,7 @@ header h2 span {
 /*****contact*****/
 
 #contact {
-    background: #8080ff;
-    padding-left: 200px; 
+    background: #8080ff; 
 }
 
 #contact h3 {
@@ -242,11 +246,12 @@ header h2 span {
     padding-top: 40px; 
     padding-bottom: 20px; 
     padding-right: 175px; 
+    padding-left: 125px; 
     color: #ebebe0;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #contact h4 {
-    margin-top: 8px;  
+    margin-top: 8px; 
 }
 
 #email-meet h4 {
