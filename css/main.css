@@ -199,8 +199,9 @@ header h2 span {
 }
 
 #about img {
-    border: 2px solid #2b2b2b; 
+    border: 2px solid #2b2b2b;  
 }
+
 #about h3 { 
     font-family: 'Playfair Display', serif; 
     font-size: 45px; 
