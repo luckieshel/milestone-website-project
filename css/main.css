@@ -119,6 +119,7 @@ header h2 span {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     letter-spacing: 2px; 
     padding-left: 450px; 
+    margin-top: 25px; 
    
 }
 
@@ -130,26 +131,26 @@ header h2 span {
 
 #first-pledge, #second-pledge, #third-pledge, h5 {
     font-size: 24px; 
-    text-align: center; 
+    text-align: left; 
 
 }
 
 #first-pledge p {
     font-size: 22px; 
     line-height: 30px; 
-    text-align: justify; 
+    text-align: left; 
 }
 
 #second-pledge p {
     font-size: 22px; 
     line-height: 30px; 
-    text-align: justify; 
+    text-align: left; 
 }
 
 #third-pledge p {
     font-size: 22px; 
     line-height: 30px; 
-    text-align: justify; 
+    text-align: left; 
 }
 
 
@@ -195,8 +196,7 @@ header h2 span {
     font-family: 'Merriweather', serif;
     font-size: 45px; 
     letter-spacing: 2px; 
-    margin-top: 0;
-    padding-top: 40px; 
+    margin-top: 25px;
     padding-bottom: 20px; 
     padding-right: 175px; 
     padding-left: 450px; 
@@ -328,8 +328,7 @@ nav ul li a {
     font-family: 'Merriweather', serif; 
     font-size: 45px; 
     letter-spacing: 2px;  
-    margin-top: 0;
-    padding-top: 40px; 
+    margin-top: 25px;
     padding-bottom: 20px; 
     padding-right: 175px; 
     padding-left: 450px; 
@@ -429,8 +428,7 @@ nav ul li a {
     font-family: 'Merriweather', serif;
     font-size: 45px; 
     letter-spacing: 2px;  
-    margin-top: 0;
-    padding-top: 40px; 
+    margin-top: 25px; 
     padding-bottom: 20px; 
     padding-right: 175px; 
     padding-left: 450px; 
